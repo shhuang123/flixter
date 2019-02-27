@@ -1,1 +1,16 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Special+Elite');
+
+.navbar {
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background-color: #ffffff;
+}
+
+.navbar-light a.navbar-brand {
+  font-family: 'Special Elite', cursive;
+  font-weight: 400;
+  color: black;
+  padding-top: 10px;
+}
