@@ -16,7 +16,7 @@
 }
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+  background: image_url('hero.jpg') no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,7 +47,24 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .btn {
-  border-radius: 0;
+  border-radius: 4px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+body {
+  background: image_url('bg.png');
+  font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
 }
 
 
