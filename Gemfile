@@ -74,6 +74,7 @@ gem "mini_magick"
 gem 'carrierwave-aws'
 gem 'stripe'
 gem 'ranked-model'
+gem "font-awesome-rails"
 
 
 source 'https://rails-assets.org' do

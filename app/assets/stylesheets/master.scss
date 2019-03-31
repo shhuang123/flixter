@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300,400|Special+Elite');
+@import "font-awesome";
 
 .navbar {
   font-family: 'Merriweather', serif;
@@ -107,12 +108,6 @@ body {
   height: 130px;
 }
 
-.section {
-  border: 1px solid;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  padding: 20px;
-}
-
 .lesson a {
   color: white;
   font-family: 'Merriweather', serif;
@@ -125,8 +120,46 @@ body {
   font-size: 25px;
 }
 
-.lesson a b {
-  font-weight: 100;
+.lessons li {
+  background: rgba(36, 32, 33, 0.9);
+  color: white;
+  margin: 10px;
+  font-family: 'Merriweather', serif;
+  font-weight: 300;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.lessons li p {
+  margin: 0;
+}
+
+.section {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul .header {
   font-size: 25px;
 }
 
+ul .header .fa {
+  font-size: 20px;
+}
